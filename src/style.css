@@ -12,29 +12,56 @@ body {
 
 h1 {
   font-size: 80px;
+  font-family: var(--main-font);
 }
 
 h2 {
   font-size: 40px;
-  margin: 10px 0;
-}
-
-.home-page-header {
+  margin-top: 20px;
   font-family: var(--main-font);
-  text-align: center;
-  margin: 120px 20px 70px;
+  color: var(--primary-color);
 }
 
-.home-page-header p {
-  font-size: 34px;
+p {
   font-family: var(--secondary-font);
-  font-weight: bold;
-  line-height: 1;
-  margin: 10px 0;
+  line-height: 1.5;
 }
 
-.btn {
-  padding: 20px 20px;
-  margin: 20px 40px;
-  background: var(--background);
+.home-page-main {
+  text-align: center;
+  margin: 120px 20px 50px;
 }
+
+.home-page-main p {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-page-links {
+  width: 150px;
+  padding: 20px 0;
+  background: var(--background);
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+    margin: 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .home-page-main {
+    margin: 70px 20px 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .btn-page-links {
+    width: 110px;
+  }
+} ;
