@@ -28,8 +28,19 @@ p {
   line-height: 1.5;
 }
 
-.navigation {
-  text-align: end;
+footer p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+footer .links-to-project i {
+  margin: 0 20px;
+}
+
+.nav-item {
+  padding: 0 25px;
+  line-height: 2;
 }
 
 .home-page-main {
@@ -47,7 +58,7 @@ p {
   width: 150px;
   padding: 20px 0;
   background: var(--background);
-  margin: 20px 0;
+  margin: 20px 0 100px;
 }
 
 .container {
