@@ -163,6 +163,10 @@ footer .links-to-project i {
     text-align: center;
   }
 
+  .btn-page-links {
+    margin-bottom: 30px;
+  }
+
   .content-page h1 {
     font-size: 46px;
     margin: 30px 5px 10px;
