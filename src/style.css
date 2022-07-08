@@ -46,7 +46,7 @@ p {
   margin: 20px 0;
 }
 
-.content-page {
+.container {
   padding: 100px 20px 50px;
 }
 
@@ -59,9 +59,10 @@ p {
 .content-page h2 {
   font-size: 30px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.page-main-info-container {
+.main-info-container {
   border-radius: 10px;
   padding: 30px 20px;
   max-width: 500px;
@@ -122,13 +123,27 @@ p {
     margin: 70px 20px 30px;
   }
 
-  .page-main-info-container {
+  .container {
+    padding: 60px 5px 30px;
+  }
+
+  .main-info-container {
     box-shadow: none;
   }
 
-  .page-main-info-container p {
+  .main-info-container p {
     text-align: center;
     margin: 20px 0 0;
+  }
+
+  .projects-container {
+    max-width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .projects-container h2 {
+    text-align: center;
   }
 
   .content-page h1 {
