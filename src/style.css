@@ -110,7 +110,7 @@ footer .links-to-project i {
   padding: 30px 20px;
   width: 400px;
   box-shadow: var(--shadow);
-  margin: 0 auto;
+  margin: 100px auto;
   text-align: center;
 }
 
@@ -152,7 +152,7 @@ footer .links-to-project i {
   }
 
   .container {
-    padding: 60px 10px 30px;
+    padding: 20px 10px 30px;
   }
 
   .main-info-container {
@@ -173,6 +173,10 @@ footer .links-to-project i {
   .content-page h2 {
     font-size: 25px;
     margin: 20px 5px 20px;
+  }
+
+  .contacts-container {
+    margin: 100px auto 200px;
   }
 }
 
