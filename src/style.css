@@ -8,6 +8,7 @@
 
 body {
   font-family: var(font);
+  background: var(--background);
 }
 
 h1 {
@@ -22,6 +23,7 @@ h2 {
 
 p {
   line-height: 1.5;
+  font-size: 20px;
 }
 
 footer p {
@@ -95,12 +97,12 @@ footer .links-to-project i {
   margin: 50px 30px 0;
 }
 
-.links-to-project a {
-  text-decoration: none;
-}
-
 .links-to-project i:hover {
   color: var(--secondary-color);
+}
+
+.links-to-project a {
+  text-decoration: none;
 }
 
 .contacts-container {
@@ -125,14 +127,14 @@ footer .links-to-project i {
   justify-content: center;
 }
 
+.mail-container i:hover {
+  color: var(--secondary-color);
+}
+
 .mail {
   font-size: 20px;
   color: var(--primary-color);
   margin: 20px 10px 70px;
-}
-
-.mail-container i:hover {
-  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
